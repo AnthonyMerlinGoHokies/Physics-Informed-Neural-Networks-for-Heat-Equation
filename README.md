@@ -2,7 +2,7 @@
 
 A comprehensive implementation of Physics-Informed Neural Networks (PINNs) for solving both forward and inverse heat equation problems. This project demonstrates the power of scientific machine learning by incorporating physical laws directly into neural network training, enabling parameter recovery from sparse measurements.
 
-## 🔬 Overview
+## Overview
 
 This repository implements PINNs to solve the heat equation:
 
@@ -159,7 +159,7 @@ PINNs leverage automatic differentiation to enforce physical laws during trainin
 - Multi-physics problems
 - Real-time monitoring and control
 
-## 📈 Performance Considerations
+## Performance Considerations
 
 ### Computational Efficiency
 - Forward problems: FEM is faster and more accurate for simple cases
