@@ -16,7 +16,7 @@ where:
 - Initial condition: `u(0,x) = sin(πx)`
 - Boundary conditions: `u(t,0) = u(t,1) = 0`
 
-## 🚀 Key Features
+## Key Features
 
 - **Forward Problem Solving**: Compute temperature evolution with known diffusion coefficient
 - **Inverse Problem Capability**: Recover unknown diffusion coefficient from sparse measurements
@@ -24,7 +24,7 @@ where:
 - **Comparison with FEM**: Benchmark against traditional finite element methods
 - **Continuous Solutions**: Mesh-free approach providing differentiable solutions across entire domain
 
-## 📋 Requirements
+## Requirements
 
 ```bash
 torch>=1.9.0
@@ -33,7 +33,7 @@ matplotlib>=3.3.0
 scipy>=1.7.0
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -46,7 +46,7 @@ cd Physics-Informed-Neural-Networks-for-Heat-Equation
 pip install torch numpy matplotlib scipy
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Forward Problem
 
@@ -86,7 +86,7 @@ Compare PINN performance against traditional finite element methods:
 python fem_comparison.py
 ```
 
-## 📊 Results
+## Results
 
 ### Forward Problem Performance
 - **PINN Error vs Analytical**: Max = 0.026427, Mean = 0.006583
@@ -105,7 +105,7 @@ python fem_comparison.py
 | PINN   | 0.026427  | 0.006583   | 1,341      |
 | FEM    | 0.017638  | 0.003102   | 100        |
 
-## 🏗️ Architecture
+## Architecture
 
 ### Neural Network Architecture
 - **Temperature Network**: 4 hidden layers, 20 neurons per layer, tanh activation
