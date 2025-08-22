@@ -124,7 +124,7 @@ Where:
 - `L_PDE`: PDE residual loss
 - `L_data`: Data fitting loss (inverse problem)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── forward_problem.py          # Forward heat equation solver
@@ -137,7 +137,7 @@ Where:
 └── README.md
 ```
 
-## 🔬 Scientific Background
+## Scientific Background
 
 ### Physics-Informed Neural Networks
 
